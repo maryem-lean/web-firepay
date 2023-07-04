@@ -16,7 +16,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/api': {
-        target: 'http://app-server:8080',
+        target: 'https://fire-pay-956c8ed1b1ae.herokuapp.com/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },

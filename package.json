@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm --force run build:client",
     "start": "vite preview",
     "lint": "eslint ./src",
     "lint-fix": "eslint --fix ./src"

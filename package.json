@@ -81,7 +81,8 @@
     "simplebar-react": "3.2.4",
     "stylis": "4.2.0",
     "stylis-plugin-rtl": "2.1.1",
-    "yup": "1.1.1"
+    "yup": "1.1.1",
+    "vite": "^4.2.0"
   },
   "devDependencies": {
     "@types/lodash.debounce": "4.0.7",
@@ -104,7 +105,6 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-react": "7.32.2",
     "eslint-plugin-react-hooks": "4.6.0",
-    "typescript": "5.0.4",
-    "vite": "^4.2.0"
+    "typescript": "5.0.4"
   }
 }
